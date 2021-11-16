@@ -1,0 +1,122 @@
+.dl-profile-header {
+    height: 140px;
+    display: flex;
+    margin-top: -5px;    
+    background-color: rgba(67,95,113,0.9);
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.dl-profile-overlay {
+    width: 100%;
+    background-color: rgba(34,67,88,0.4);
+}
+.dl-profile-wrapper {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    padding: 0 16px;
+}
+.dl-profile-header-photo {
+    flex-basis: 140px;
+    margin: 20px;
+    position: relative;
+}
+.dl-profile-header-photo img {
+    width: 140px;
+    height: 140px;
+    border-radius: 8%;
+    display: block;
+    position: relative;
+    z-index: 2;
+    box-shadow: 0 4px 10px rgba(67,95,113,0.08);
+}
+.dl-profile-header-photo-hover {
+    position: absolute;
+    top: 0;
+    width: 140px;
+    height: 140px;
+    border-radius: 8%;
+    background-color: #435f71;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    font-family: "Roboto", arial, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    z-index: 2;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.25s ease-in-out;
+}
+.dl-profile-header-name-speciality {
+    flex: 10;
+}
+.dl-profile-header-name {
+    padding-top: 30px;
+    color: #fff;
+    font-family: "Montserrat", arial, sans-serif;
+    line-height: 35px;
+    font-size: 26px;
+    margin: 0;
+}
+.dl-profile-header-speciality {
+    color: #fff;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 0;
+    font-family: "Roboto", arial, sans-serif;
+}
+.dl-profile-nav {
+    background-color: #fff;
+    height: 60px;
+    display: flex;
+    z-index: 1;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 2px 10px 0 rgba(67,95,113,0.2);
+}
+.dl-profile-wrapper {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    padding: 0 16px;
+}
+ .dl-profile-nav-links {
+    margin: 0 0 0 180px;
+}
+.link-selected {
+    border-bottom: 2px solid #fdc400;
+}
+.dl-profile-nav-link, .dl-directory-nav-link {
+    display: inline-block;
+    font-family: "Montserrat", arial, sans-serif;
+    list-style: none;
+    height: 100%;
+    font-size: 16px;
+    line-height: 60px;
+    margin: 0;
+}
+.dl-profile-nav-link a, .dl-directory-nav-link a {
+    padding: 0 16px;
+    color: #435f71;
+}
+
+.dl-profile-booking-wrapper, .dl-profile-not-bookable-wrapper {
+    flex: 4;
+    padding: 0 30px;
+    position: relative;
+}
+.dl-profile-bio {
+    white-space: pre-wrap;
+    word-break: break-word;
+    line-height: 24px;
+    max-height: 120px;
+    font-size: 14px;
+    overflow: hidden;
+}

@@ -1,0 +1,58 @@
+.login-container{
+    margin-top: 2%;
+    
+    margin-bottom: 2%;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+.login-form-1{
+    padding: 3%;
+    /* box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19); */
+    background: #f1f1f1;
+    border-right: 1px solid #f1f1f1;
+}
+.login-form-1 h3{
+    margin-left: 5%;
+    color: #333;
+}
+.login-form-2{
+    padding: 3%;
+    background: #fff;
+    background-image: url("https://cdn.dribbble.com/users/2221077/screenshots/10486767/receptionist-working.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19); */
+}
+
+.login-container form{
+    padding: 5%;
+}
+.btnSubmit
+{
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    border: none;
+    cursor: pointer;
+}
+.login-form-1 .btnSubmit{
+    padding: 8px 16px;
+    border-radius: 8px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#03bddf), to(#0596de));
+    background-image: linear-gradient(180deg, #03bddf, #0596de);
+    -webkit-transition: all 200ms ease;
+    transition: all 200ms ease;
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+    font-weight: 700;
+
+}
+
+
+.login-form-1 .ForgetPwd{
+    color: #8a8888;
+    font-weight: 600;
+    text-decoration: none;
+}

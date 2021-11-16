@@ -1,0 +1,69 @@
+.searchbar {
+    height: 60px;
+    width: 100%;    
+    box-shadow: 0 0 20px 0 rgba(67,95,113,0.2);
+    border-radius: 8px 0 0 8px;  
+    padding: 0 46px; 
+    border: none;
+    color: #435f71;
+    box-sizing: border-box;
+    outline: none;
+    width: 100%;
+    font-size: 14px;
+}
+.no-radius{
+    border-radius: 0;
+    margin-left: -10px;
+    border-left: 1px solid #d1d1d1 ;
+    
+}
+
+
+.searchbar-input-icon {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    height: 20px;
+    width: 20px;
+    pointer-events: none;
+    fill: rgba(67,95,113,0.3);
+}
+
+
+.searchbar .dl-button-primary.searchbar-submit-button {
+    height: 60px;
+    color: #fff;
+    border: none;
+    background-color: #ff7e00;
+    border-radius: 0 8px 8px 0;
+    padding: 16px;
+    z-index: 1;
+}
+
+button svg {
+    fill: #fff !important;
+    margin-left: 8px;
+    
+}
+.search-submit{
+    height: 60px;
+    color: #fff;
+    border: none;  
+    padding: 16px;
+    z-index: 1;
+    background-color: #ff7e00 !important;
+    border-radius: 0 !important;
+    border-color: none !important;
+    margin-left: -20px;
+   
+}
+
+@media (max-width: 767px) {
+    /* line 210, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_header.scss */
+    .search-submit, .no-radius, .searchbar {
+      margin-left: 0px;
+      border-radius: 8px !important;
+    }
+  }
+
+

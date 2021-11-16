@@ -1,0 +1,62 @@
+.dl-profile-wrapper {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    padding: 0 16px;
+}
+.dl-profile-card {
+    margin: 16px 0;
+    padding: 16px 0 16px;
+    display: flex;
+    border-radius: 4px;
+    background: #fff;
+    color: #435f71;
+    font-size: 14px;
+    flex-direction: column;
+}
+.dl-profile-body-wrapper {
+    flex: 8;
+}
+.dl-profile-card-section {
+    display: flex;
+    padding-left: 5px;
+}
+.dl-profile-card-icon {
+    width: 52px;
+    text-align: center;
+}
+.dl-profile-card-content {
+    flex: 1 0 0%;
+    padding: 0 52px 0 0;
+}
+.dl-profile-card-title {
+    font-family: "Montserrat", arial, sans-serif;
+    font-size: 16px;
+    line-height: 21px;
+    margin: 0 0 16px;
+    font-weight: 500;
+}
+.dl-profile-text {
+    line-height: 24px;
+    margin: 0 0 16px;
+}
+.dl-profile-practice-name {
+    line-height: 24px;
+    margin: 0;
+    font-weight: bold;
+}
+.dl-profile-text:last-of-type {
+    margin: 0;
+}
+
+.dl-profile-text {
+    line-height: 24px;
+    margin: 0 0 16px;
+}
+.dl-profile-doctor-place-map {
+    flex: 1;
+    margin: -16px 0;
+    min-height: 300px;
+    position: relative;
+}
